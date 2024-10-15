@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.student.StudentApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-15T17:36:31" hostname="BHAVESH-PC" time="0.763">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.student.StudentApplicationTests" time="0.763"/>
+  <system-out><![CDATA[23:06:29.464 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.student.StudentApplicationTests]: StudentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:06:29.589 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.student.StudentApplication for test class com.example.student.StudentApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-15T23:06:29.927+05:30  INFO 17324 --- [student] [    Test worker] c.e.student.StudentApplicationTests      : Starting StudentApplicationTests using Java 17.0.11 with PID 17324 (started by bhave in D:\Workspace\Student-API\Student-Cloud-API)
+2024-10-15T23:06:29.942+05:30  INFO 17324 --- [student] [    Test worker] c.e.student.StudentApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-10-15T23:06:31.417+05:30  INFO 17324 --- [student] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path ''
+2024-10-15T23:06:31.479+05:30  INFO 17324 --- [student] [    Test worker] c.e.student.StudentApplicationTests      : Started StudentApplicationTests in 1.75 seconds (process running for 2.819)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
