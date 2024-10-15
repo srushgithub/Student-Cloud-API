@@ -10,4 +10,9 @@ public class StudentController {
     String getDemo() {
         return "Hello friend";
     }
+
+    @GetMapping(value = "/test")
+    String getTest() {
+        return "pass";
+    }
 }
